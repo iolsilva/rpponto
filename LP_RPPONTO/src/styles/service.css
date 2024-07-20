@@ -1,0 +1,68 @@
+#Service{
+    background: url(/Imagens/service-bg.svg);
+    margin-top: 3rem;
+    font-family:  "Poppins", sans-serif;
+    height: 100vh;
+}
+
+#Service h1{
+    padding-top: 3rem;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.service-logo{
+    width: 10vw;
+}
+
+.service-logo_checkin{
+    width: 16vw;
+    height: 8vh;
+}
+
+.service-box{
+    width: 100%;
+    margin: 4rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-box_left, .service-box_rigth{
+    width: 30vw;
+    height: 65vh;
+    margin: 0 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+}
+
+.service-list{
+    list-style: none;
+}
+
+.service-list_text{
+    display: flex;
+    align-items: center;
+    margin: 1.8rem 1rem;
+}
+
+.service-list_text p{
+    color: #04844C;
+    font-weight: 400;
+}
+
+.service-btn{
+    padding: 0.5rem 2rem;
+    background-color:#04844C ;
+    color: #FFFFFF;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
