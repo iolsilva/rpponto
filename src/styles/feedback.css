@@ -1,0 +1,75 @@
+#feedback{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 100vh;
+    position: relative;
+}
+
+#feedback h1{
+    margin: 6rem 0 5rem 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    color: #04844C;
+    text-align: center;
+}
+
+.feedback-cards{
+    display: flex;
+    height: 60vh;
+    align-items: center;
+
+}
+
+.feedback-card{
+    text-align: center;
+    height: 100%;
+    margin: 0 3rem;
+}
+
+.feedback-card_title,
+.feedback-card_publicacao
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    color: #04844C;
+}
+
+.feedback-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #04844C;
+    width: 320px;
+    height: 80%;
+    border-radius: 30px;
+    
+}
+
+.feedback-box_descricao{
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.feedback-box_descricao p{
+    font-family: "Poppins", sans-serif;
+    margin: 1.5rem;
+}
+
+.feedback-box_descricao img{
+    margin-top: 1rem;
+}
+
+#relogio{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

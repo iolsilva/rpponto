@@ -1,0 +1,84 @@
+#others{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#others h1{
+    margin: 3rem 0 8rem 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    color: #04844C;
+   
+}
+
+.swiper {
+    background-color: #04844C;
+    width: 70vw;
+    height: 50vh;
+    border-radius: 30px;
+  }
+
+  .swiper-slide{
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 30% !important;
+    height: 80%;
+    margin: 2rem 1rem;
+  }
+
+  .swiper-img{
+    text-align: center;
+    padding-top: 2rem;
+    width: 100%;
+  }
+
+  .swiper-slide_title{
+    width: 80%;
+    color: #04844C;
+    font-weight: 800;
+    position: absolute;
+    bottom: 4vh;
+    border-top: solid 4px ;
+  }
+
+  .swiper-button-prev, .swiper-button-next{
+    color: black !important;
+  }
+
+  #vector2{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 30vh;
+  }
+
+  #vector3{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 30vh;
+  }
+
+  #vector4{
+    position: absolute;
+    left: 10vw;
+    top: 25vh;
+  }
+
+  #vector5{
+    position: absolute;
+    right: 10vw;
+    bottom: 10vh;
+  }
+
+
+
